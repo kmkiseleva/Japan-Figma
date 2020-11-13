@@ -269,7 +269,7 @@ header {
 .benefits__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 55px;
+  column-gap: 55px;
   padding: 0 100px;
 }
 
@@ -358,7 +358,7 @@ header {
 .places__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
+  gap: 10px;
 }
 
 .places__card {
@@ -434,7 +434,7 @@ header {
 .tours__tour {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0 108px;
+  gap: 0 108px;
   align-items: center;
   margin-bottom: 77px;
 }
@@ -484,7 +484,7 @@ header {
 .top__cards {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 57px;
+  gap: 57px;
 }
 
 .top__card {
@@ -650,7 +650,7 @@ header {
 
   .benefits__cards {
     padding: 0 15px;
-    grid-column-gap: 35px;
+    column-gap: 35px;
   }
 
   .benefits__title {
@@ -667,7 +667,7 @@ header {
   }
 
   .tours__tour {
-    grid-column-gap: 35px;
+    column-gap: 35px;
   }
 
   .tour__info {
@@ -680,8 +680,8 @@ header {
   }
 
   .top__cards {
-    grid-column-gap: 25px;
-    grid-row-gap: 55px;
+    column-gap: 25px;
+    row-gap: 55px;
   }
 
   .top__card {
