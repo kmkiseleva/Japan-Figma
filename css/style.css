@@ -218,6 +218,7 @@ header {
   font-size: 18px;
   line-height: 24px;
   color: #ffffff;
+  opacity: 0.55;
 }
 
 .search-form__submit {
@@ -352,7 +353,7 @@ header {
 
 .places__view-all:hover,
 .places__view-all:focus {
-  opacity: 0.65;
+  opacity: 0.75;
 }
 
 .places__cards {
@@ -467,7 +468,7 @@ header {
 
 .tour__more:hover,
 .tour__more:focus {
-  opacity: 0.65;
+  opacity: 0.75;
 }
 
 /* Tours styles end */
@@ -710,6 +711,10 @@ header {
     display: block;
   }
 
+  .header__burger:hover {
+    opacity: 0.75;
+  }
+
   .header__wrapper {
     padding-top: 28px;
   }
@@ -753,6 +758,10 @@ header {
     top: 20px;
     right: 20px;
     z-index: 11;
+  }
+
+  .header__nav-close:hover {
+    opacity: 0.75;
   }
 
   .header__nav-close-line {
